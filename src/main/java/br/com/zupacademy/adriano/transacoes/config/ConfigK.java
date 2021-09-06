@@ -74,7 +74,7 @@ public class ConfigK {
 
     @Bean
     public ConcurrentKafkaListenerContainerFactory<String, TransacaoK>
-    tKafkaListenerContainerFactory() {
+    transacaoKafkaListenerContainerFactory() {
 
         ConcurrentKafkaListenerContainerFactory<String, TransacaoK> factory =
                 new ConcurrentKafkaListenerContainerFactory<>();
