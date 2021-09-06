@@ -44,10 +44,10 @@ services:
       DB_PASSWORD: 123
       ANALISE_HOST: http://analise:9999
       CARTAO_HOST: http://contas:8888
-      KEYCLOAK_ISSUER_URI: http://localhost:18080/auth/realms/propostas
-      KEYCLOAK_JWKS_URI: http://localhost:18080/auth/realms/propostas/protocol/openid-connect/certs
+      KEYCLOAK_ISSUER_URI: http://localhost:18080/auth/realms/transacao
+      KEYCLOAK_JWKS_URI: http://localhost:18080/auth/realms/transacao/protocol/openid-connect/certs
       JAEGER_ENABLED: true
-      APPLICATION_NAME: propostas
+      APPLICATION_NAME: transacoes
       JAEGER_ENDPOINT: http://jaeger:14268/api/traces
       JAEGER_SAMPLER: 1
       JAEGER_JDBC: true
